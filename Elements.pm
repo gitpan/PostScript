@@ -7,12 +7,7 @@
 # itself.
 #
 
-=head1 NAME
-=head1 DESCRIPTION
-=head1 SYNOPSIS
-=head1 AUTHOR
-=cut
-
+PostScript::Elements::VERSION = '0.04';
 
 package PostScript::Elements;
 use strict;
@@ -207,3 +202,26 @@ sub Write() {
 
 
 1;
+
+__END__
+
+
+=head1 NAME
+
+PostScript::Elements - Generate PostScript code for circles, boxes, lines
+
+=head1 DESCRIPTION
+
+An object for representing lines, circles, boxes, and images 
+such that they can be easily output as PostScript code.
+
+=head1 SYNOPSIS
+
+
+
+=head1 AUTHOR
+
+
+
+=cut
+

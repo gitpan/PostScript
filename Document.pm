@@ -16,7 +16,7 @@ require Exporter;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 use PostScript::TextBlock;
 
@@ -199,7 +199,7 @@ __END__
 
 =head1 NAME
 
-PostScript::Document
+PostScript::Document - generate multi-page PostScript documents
 
 =head1 SYNOPSIS
 

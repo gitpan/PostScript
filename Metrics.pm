@@ -11,7 +11,7 @@ require Exporter;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 
 my %fonts = (
@@ -172,7 +172,7 @@ __END__
 
 =head1 NAME
 
-PostScript::Metrics
+PostScript::Metrics - helper module for PostScript::TextBlock
 
 =head1 SYNOPSIS
 

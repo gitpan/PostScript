@@ -12,7 +12,7 @@ require Exporter;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 # The valid text block attribute names
 #
@@ -176,6 +176,8 @@ sub Write {
 }
 1;      # All Perl modules should return true
 
+
+__END__
 
 =head1 NAME
 

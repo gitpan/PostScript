@@ -7,7 +7,7 @@
 # itself.
 #
 
-PostScript::Elements::VERSION = '0.04';
+PostScript::Elements::VERSION = '0.06';
 
 package PostScript::Elements;
 use strict;

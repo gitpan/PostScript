@@ -5,12 +5,7 @@
 #
 package PostScript::Metrics;
 use strict;
-use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
-
-require Exporter;
-
-@ISA = qw(Exporter AutoLoader);
-@EXPORT = qw();
+use vars qw($VERSION);
 $VERSION = '0.04';
 
 
